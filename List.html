@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .list1 li::before{
+            content: '';
+            display: inline-block;
+            height: 30px;
+            width: 50px;
+            background-image: url("First/dragon.jpg");
+            background-size: cover;
+        }
+        .list2{
+            list-style-type:square;
+            list-style-position: outside;
+        }
+        .list3{
+            list-style: circle outside none;
+        }
+        .list4 li::before{
+            content: '';
+            display: inline-block;
+            height: 30px;
+            width: 30px;
+            background-image: url("https://c.tenor.com/hOF1YZDv6dcAAAAC/fire-gif.gif");
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <ul class="list1">List1
+        <li>Element1</li>
+        <li>Element2</li>
+        <li>Element3</li>
+    </ul>
+    <ul class="list2">List2
+        <li>Element1</li>
+        <li>Element2</li>
+        <li>Element3</li>
+    </ul>
+    <ul class="list3">List3
+        <li>Element1</li>
+        <li>Element2</li>
+        <li>Element3</li>
+    </ul>
+    <ul class="list4">list4
+        <li>Element1</li>
+        <li>Element2</li>
+        <li>Element3</li>
+    </ul>
+</body>
+</html>

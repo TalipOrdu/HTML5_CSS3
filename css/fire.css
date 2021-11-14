@@ -1,0 +1,12 @@
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 150px;
+    font-weight: 1000;
+    color: transparent;
+    background-image: url("https://thumbs.gfycat.com/AbandonedAnguishedCatfish-max-1mb.gif");
+    background-position: center;
+    -webkit-background-clip: text;
+
+}
